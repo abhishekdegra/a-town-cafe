@@ -42,3 +42,4 @@ export function getCafeLiveStatus(date = new Date()): CafeLiveStatus {
     }
   }
 }
+
