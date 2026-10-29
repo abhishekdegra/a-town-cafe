@@ -8,11 +8,15 @@ import { Reviews } from '@/components/reviews/Reviews'
 import { Visit } from '@/components/visit/Visit'
 import { Footer } from '@/components/layout/Footer'
 import { SmoothScrollProvider } from '@/components/providers/SmoothScrollProvider'
+import { CoffeeFlow } from '@/components/coffee-flow'
 
 export default function App() {
   return (
     <SmoothScrollProvider>
-      <div className="flex min-h-screen flex-col bg-[#F7F0E5] text-[#35271F] font-sans selection:bg-[#E6B629]/30 selection:text-[#35271F]">
+      <div className="flex min-h-screen flex-col bg-[#F7F0E5] text-[#35271F] font-sans selection:bg-[#E6B629]/30 selection:text-[#35271F] relative">
+        {/* Signature Scroll-Linked Coffee Flow (Continuous Viewport Layer) */}
+        <CoffeeFlow />
+
         {/* Navigation Bar */}
         <Navbar />
 
