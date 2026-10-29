@@ -95,8 +95,8 @@ export interface CafeConfig {
 
 export const CAFE_CONFIG: CafeConfig = {
   brand: {
-    name: 'A-Town Café',
-    wordmark: 'A-TOWN CAFÉ',
+    name: 'Compylo Café',
+    wordmark: 'COMPYLO CAFÉ',
     tagline: 'Good Coffee. Great Company.',
     eyebrow: 'YOUR EVERYDAY ESCAPE',
     headline: 'Good Coffee. Great Company.',
@@ -107,16 +107,16 @@ export const CAFE_CONFIG: CafeConfig = {
   contact: {
     addressLine1: 'Plot 42, Sunrise Boulevard, Sector 5',
     addressLine2: 'Opposite Central Promenade Garden',
-    cityStateZip: 'A-Town — 302020',
+    cityStateZip: 'Compylo — 302020',
     landmark: 'Near Boulevard Fountain',
     phoneDisplay: '+91 98765 43210',
     phoneCall: 'tel:+919876543210',
     whatsappNumber: '+91 98765 43210',
-    whatsappLink: 'https://wa.me/919876543210?text=Hi%20A-Town%20Café!%20I%20would%20like%20to%20reserve%20a%20table.',
-    email: 'hello@atowncafe.com',
-    instagramHandle: '@atowncafe',
-    instagramUrl: 'https://instagram.com/atowncafe',
-    googleMapsUrl: 'https://maps.google.com/?q=A-Town+Cafe',
+    whatsappLink: 'https://wa.me/919876543210?text=Hi%20Compylo%20Café!%20I%20would%20like%20to%20reserve%20a%20table.',
+    email: 'hello@compylo.com',
+    instagramHandle: '@compylo',
+    instagramUrl: 'https://instagram.com/compylo',
+    googleMapsUrl: 'https://maps.google.com/?q=Compylo+Cafe',
     googleMapsEmbedUrl:
       'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14234.6789!2d75.7873!3d26.9124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDU0JzQ0LjYiTiA3NcKwNDcnMTQuMyJF!5e0!3m2!1sen!2sin!4v1600000000000!5m2!1sen!2sin',
   },
@@ -260,7 +260,7 @@ export const CAFE_CONFIG: CafeConfig = {
     // Cold Coffee & Refreshers
     {
       id: 'cc1',
-      name: 'A-Town Signature Iced Shakerato',
+      name: 'Compylo Signature Iced Shakerato',
       category: 'Cold Coffee & Refreshers',
       description: 'Espresso vigorously shaken over crystal ice with orange zest, organic brown sugar, and sea salt.',
       price: 230,
@@ -447,7 +447,7 @@ export const CAFE_CONFIG: CafeConfig = {
       category: 'Interiors',
       image: 'https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&w=1200&q=85',
       aspect: 'wide',
-      caption: 'Warm mustard accents, cozy banquettes, and ambient conversation as dusk settles in A-Town.',
+      caption: 'Warm mustard accents, cozy banquettes, and ambient conversation as dusk settles at Compylo.',
     },
     {
       id: 'g7',
@@ -473,7 +473,7 @@ export const CAFE_CONFIG: CafeConfig = {
       role: 'Local Architect & Regular',
       rating: 5,
       comment:
-        'A-Town Café has completely changed my mornings. The Spanish Cortado is perfection, and the natural wood interiors with warm lighting make it the most peaceful spot in town to sketch and unwind.',
+        'Compylo Café has completely changed my mornings. The Spanish Cortado is perfection, and the natural wood interiors with warm lighting make it the most peaceful spot in town to sketch and unwind.',
       date: 'Visited last week',
     },
     {

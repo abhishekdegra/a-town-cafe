@@ -8,7 +8,7 @@ export interface HeaderProps {
 }
 
 export function Header({
-  title = 'A-Town',
+  title = 'Compylo',
   subtitle = 'Community & Exploration',
 }: HeaderProps) {
   return (

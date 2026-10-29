@@ -30,7 +30,7 @@ export function Highlights() {
             className="inline-flex items-center gap-2 rounded-full border border-[#C78B45]/30 bg-[#2E2018] px-4 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-[#E6B629] mb-4 shadow-sm"
           >
             <Sparkles className="h-3.5 w-3.5 text-[#E6B629]" />
-            <span>The A-Town Experience</span>
+            <span>The Compylo Experience</span>
           </motion.div>
 
           <motion.h2
@@ -51,7 +51,7 @@ export function Highlights() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mt-4 text-base sm:text-lg text-[#F7F0E5]/75 leading-relaxed"
           >
-            Four pillars that define the spirit of A-Town Café — from our beans to our welcoming atmosphere.
+            Four pillars that define the spirit of Compylo Café — from our beans to our welcoming atmosphere.
           </motion.p>
         </div>
 

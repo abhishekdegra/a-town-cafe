@@ -42,7 +42,7 @@ const matchRules: MatchRule[] = [
   {
     mood: 'silky',
     temp: 'iced',
-    itemId: 'cc1', // A-Town Signature Iced Shakerato
+    itemId: 'cc1', // Compylo Signature Iced Shakerato
     matchReason: 'Espresso shaken with crystal ice, orange zest and sea salt — frosted foam with silky texture.',
   },
   {
@@ -101,7 +101,7 @@ export function BrewMatchmaker({ onHighlightItem, onOpenModal }: BrewMatchmakerP
   const matchedItem = CAFE_CONFIG.menuItems.find((i) => i.id === matchedRule.itemId) || CAFE_CONFIG.menuItems[0]
 
   const whatsappMessage = encodeURIComponent(
-    `Hi A-Town Café! I took your Brew Matchmaker on the website and got matched with ${matchedItem.name} (₹${matchedItem.price}). I'd like to order it!`
+    `Hi Compylo Café! I took your Brew Matchmaker on the website and got matched with ${matchedItem.name} (₹${matchedItem.price}). I'd like to order it!`
   )
   const whatsappUrl = `https://wa.me/${CAFE_CONFIG.contact.whatsappNumber.replace(/[^0-9]/g, '')}?text=${whatsappMessage}`
 

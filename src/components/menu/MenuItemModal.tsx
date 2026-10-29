@@ -31,7 +31,7 @@ export function MenuItemModal({ item, onClose }: MenuItemModalProps) {
   if (!item) return null
 
   const whatsappMessage = encodeURIComponent(
-    `Hi A-Town Café! I'm interested in ordering the ${item.name} (₹${item.price}). Is it currently available for dine-in or takeaway?`
+    `Hi Compylo Café! I'm interested in ordering the ${item.name} (₹${item.price}). Is it currently available for dine-in or takeaway?`
   )
   const whatsappUrl = `https://wa.me/${CAFE_CONFIG.contact.whatsappNumber.replace(/[^0-9]/g, '')}?text=${whatsappMessage}`
 

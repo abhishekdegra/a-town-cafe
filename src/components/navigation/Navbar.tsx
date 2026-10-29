@@ -84,7 +84,7 @@ export function Navbar() {
             <a
               href="#hero"
               className="group flex items-center gap-2.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E6B629] rounded-lg p-1"
-              aria-label="A-Town Café - Home"
+              aria-label="Compylo Café - Home"
             >
               <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#E6B629] text-[#221813] transition-transform duration-300 group-hover:scale-105 shadow-md">
                 <Coffee className="h-5 w-5 stroke-[2.2]" />

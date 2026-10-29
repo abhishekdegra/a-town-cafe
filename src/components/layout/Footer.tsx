@@ -73,7 +73,7 @@ export function Footer() {
           {/* Quick Links Column */}
           <div className="lg:col-span-3 space-y-3">
             <h4 className="font-serif text-sm font-bold text-[#FFFDF8] uppercase tracking-wider">
-              Explore A-Town
+              Explore Compylo
             </h4>
             <ul className="space-y-2 text-xs sm:text-sm">
               {footerLinks.map((link) => (

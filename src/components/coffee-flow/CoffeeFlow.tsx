@@ -47,7 +47,7 @@ function getResponsiveConfig(windowWidth: number): ResponsiveCupConfig {
 }
 
 /**
- * Signature Scroll-Linked Coffee Flow for A-Town Café.
+ * Signature Scroll-Linked Coffee Flow for Compylo Café.
  * 
  * Architecture:
  * - Positioned in a dedicated fixed viewport layer (pointer-events: none, z-30).

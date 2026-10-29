@@ -41,7 +41,7 @@ export function Story() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mt-4 text-base sm:text-lg text-[#5C4A3E] leading-relaxed"
           >
-            We created A-Town Café as a warm sanctuary where time ticks a little slower,
+            We created Compylo Café as a warm sanctuary where time ticks a little slower,
             conversations flow effortlessly, and every cup is crafted with care and intention.
           </motion.p>
         </div>
@@ -59,7 +59,7 @@ export function Story() {
             >
               <img
                 src={CAFE_CONFIG.media.storyImage1}
-                alt="Barista at A-Town Café preparing specialty coffee under warm ambient pendant lamps"
+                alt="Barista at Compylo Café preparing specialty coffee under warm ambient pendant lamps"
                 loading="lazy"
                 className="w-full h-[400px] sm:h-[480px] object-cover hover:scale-105 transition-transform duration-700 ease-out"
               />
@@ -86,7 +86,7 @@ export function Story() {
             >
               <img
                 src={CAFE_CONFIG.media.storyImage2}
-                alt="Cozy wooden seating with warm natural sunlight at A-Town Café"
+                alt="Cozy wooden seating with warm natural sunlight at Compylo Café"
                 loading="lazy"
                 className="w-full h-36 object-cover"
               />
@@ -111,7 +111,7 @@ export function Story() {
               <p>
                 Step inside and leave the rush behind. From the natural grains of our oak tables
                 and the soft amber glow of woven pendant lamps, to the gentle hum of our espresso
-                grinder, every detail at <strong>A-Town Café</strong> was styled to feel like home.
+                grinder, every detail at <strong>Compylo Café</strong> was styled to feel like home.
               </p>
               <p className="text-[#5C4A3E] text-base">
                 Whether you’re catching up with an old friend over a Spanish cortado, diving into a
@@ -133,7 +133,7 @@ export function Story() {
                 "Every cup we pour is an invitation to slow down, share a thought, and savor the moment."
               </p>
               <span className="block text-xs uppercase tracking-widest text-[#C78B45] font-semibold mt-2">
-                — The A-Town Barista Team
+                — The Compylo Barista Team
               </span>
             </motion.div>
 

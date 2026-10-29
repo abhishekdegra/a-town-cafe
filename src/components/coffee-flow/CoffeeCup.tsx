@@ -7,14 +7,14 @@ export interface CoffeeCupProps {
 }
 
 /**
- * Custom Branded Ceramic Espresso Cup SVG for A-Town Café.
+ * Custom Branded Ceramic Espresso Cup SVG for Compylo Café.
  * 
  * Includes:
  * - Handcrafted ceramic silhouette with ergonomic handle.
  * - Warm cream/ivory ceramic glaze (#FFFDF8 / #EDE2D0).
  * - Multi-layer espresso interior with golden crema swirl.
  * - Thin mustard-gold accent ring (#E6B629).
- * - Refined, high-legibility "A-TOWN CAFÉ" editorial wordmark.
+ * - Refined, high-legibility "COMPYLO CAFÉ" editorial wordmark.
  * - Precision bottom extraction spout & outlet nozzle.
  */
 export function CoffeeCup({ width = 72, className = '', outletRef }: CoffeeCupProps) {
@@ -32,7 +32,7 @@ export function CoffeeCup({ width = 72, className = '', outletRef }: CoffeeCupPr
       style={{
         filter: 'drop-shadow(0 8px 18px rgba(36, 25, 18, 0.45)) drop-shadow(0 2px 5px rgba(0, 0, 0, 0.22))',
       }}
-      aria-label="A-Town Café Ceramic Espresso Cup"
+      aria-label="Compylo Café Ceramic Espresso Cup"
     >
       <defs>
         {/* Warm Ivory Ceramic Body Gradient */}
@@ -151,29 +151,29 @@ export function CoffeeCup({ width = 72, className = '', outletRef }: CoffeeCupPr
       />
       <ellipse cx="30" cy="17.2" rx="3.2" ry="1" fill="#FFFDF8" opacity={0.5} />
 
-      {/* 5. A-TOWN CAFÉ Branded Editorial Wordmark */}
+      {/* 5. COMPYLO CAFÉ Branded Editorial Wordmark */}
       <g id="cup-brand" transform="translate(36, 42)">
-        {/* A-TOWN Headline */}
+        {/* COMPYLO Headline */}
         <text
           x="0"
           y="0"
           textAnchor="middle"
           fontFamily="'Playfair Display', Georgia, serif"
-          fontSize="7.2"
+          fontSize="6.6"
           fontWeight="800"
-          letterSpacing="1.1"
+          letterSpacing="1.0"
           fill="#2C1E16"
         >
-          A-TOWN
+          COMPYLO
         </text>
 
         {/* CAFÉ Sub-Brand */}
         <text
           x="0"
-          y="7.2"
+          y="7"
           textAnchor="middle"
           fontFamily="'DM Sans', system-ui, sans-serif"
-          fontSize="4"
+          fontSize="3.9"
           fontWeight="700"
           letterSpacing="1.5"
           fill="#B87834"
@@ -182,7 +182,7 @@ export function CoffeeCup({ width = 72, className = '', outletRef }: CoffeeCupPr
         </text>
 
         {/* Signature Mustard Gold Accent Diamond */}
-        <polygon points="0,10.2 1.3,11.5 0,12.8 -1.3,11.5" fill="#E6B629" />
+        <polygon points="0,10 1.3,11.3 0,12.6 -1.3,11.3" fill="#E6B629" />
       </g>
 
       {/* 6. Precision Bottom Extraction Spout */}

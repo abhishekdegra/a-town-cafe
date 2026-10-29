@@ -123,7 +123,7 @@ export function Gallery() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mt-4 text-base sm:text-lg text-[#F7F0E5]/75 leading-relaxed"
           >
-            A glimpse into the warm light, natural wood textures, and cozy ambience waiting for you at A-Town.
+            A glimpse into the warm light, natural wood textures, and cozy ambience waiting for you at Compylo.
           </motion.p>
         </div>
 

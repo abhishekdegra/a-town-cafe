@@ -44,7 +44,7 @@ export function Reviews() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mt-4 text-base sm:text-lg text-[#5C4A3E] leading-relaxed"
           >
-            A sample of community impressions and notes from our guests who made A-Town their daily coffee haven.
+            A sample of community impressions and notes from our guests who made Compylo their daily coffee haven.
           </motion.p>
         </div>
 

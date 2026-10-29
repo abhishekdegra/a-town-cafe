@@ -97,7 +97,7 @@ export function Hero() {
       onPointerMove={handlePointerMove}
       onPointerLeave={handlePointerLeave}
       className="relative min-h-[100svh] w-full flex flex-col justify-between overflow-hidden bg-[#241912] select-none"
-      aria-label="A-Town Café Cinematic Hero"
+      aria-label="Compylo Café Cinematic Hero"
     >
       {/* =========================================================================
           BACKGROUND CINEMATIC SCENE
@@ -115,7 +115,7 @@ export function Hero() {
         {/* Poster Image: Displays immediately without waiting for video buffer */}
         <img
           src={CAFE_CONFIG.media.heroPoster}
-          alt="Artisanal espresso coffee brewing at A-Town Café"
+          alt="Artisanal espresso coffee brewing at Compylo Café"
           fetchPriority="high"
           className={`absolute inset-0 h-full w-full object-cover object-center transition-opacity duration-1000 ${
             videoLoaded && !videoError ? 'opacity-0' : 'opacity-100 animate-ken-burns'
@@ -205,7 +205,7 @@ export function Hero() {
               className="flex items-center gap-2.5 text-xs font-medium tracking-[0.32em] uppercase text-[#E3B47E] mb-3 sm:mb-4"
             >
               <span className="h-px w-5 sm:w-7 bg-[#C78B45]/50" />
-              <span>A-TOWN CAFÉ · COFFEE &amp; KITCHEN</span>
+              <span>COMPYLO CAFÉ · COFFEE &amp; KITCHEN</span>
               <span className="h-px w-5 sm:w-7 bg-[#C78B45]/50" />
             </motion.div>
 

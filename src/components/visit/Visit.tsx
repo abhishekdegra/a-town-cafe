@@ -54,7 +54,7 @@ export function Visit() {
             className="font-serif text-3xl sm:text-5xl font-extrabold tracking-tight text-[#221813] leading-tight"
           >
             Come Visit Us at{' '}
-            <span className="italic font-normal text-[#C78B45]">A-Town Café</span>
+            <span className="italic font-normal text-[#C78B45]">Compylo Café</span>
           </motion.h2>
 
           <motion.p
@@ -230,7 +230,7 @@ export function Visit() {
           >
             <div className="relative flex-1 min-h-[440px] rounded-2xl overflow-hidden border-2 border-[#806B5B]/20 shadow-md bg-[#FAF5EE]">
               <iframe
-                title="A-Town Café Location Map"
+                title="Compylo Café Location Map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.5348398437937!2d75.78727091500001!3d26.912433600000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDU0JzQ0LjgiTiA3NcKwNDcnMjIuMiJF!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
                 className="w-full h-full min-h-[440px] border-0"
                 loading="lazy"

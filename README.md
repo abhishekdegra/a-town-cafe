@@ -1,4 +1,4 @@
-# ☕ A-Town Café — Premium Cinematic Hospitality Website
+# ☕ Compylo Café — Premium Cinematic Hospitality Website
 
 A bespoke, production-ready café brand website built with **React 19**, **TypeScript**, **Vite**, **Tailwind CSS v4**, **Motion for React**, and **Lucide React**.
 
@@ -36,7 +36,7 @@ Designed with warm pendant lighting aesthetics, natural oak textures, woven acce
 ## 📁 Project Structure
 
 ```text
-a-town/
+compylo/
 ├── public/                 # Static assets (favicons, SVG icons)
 ├── src/
 │   ├── assets/             # Brand images and graphic assets

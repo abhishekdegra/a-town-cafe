@@ -1,5 +1,5 @@
 /**
- * Analytical mathematical utilities for the A-Town Café scroll-linked coffee stream.
+ * Analytical mathematical utilities for the Compylo Café scroll-linked coffee stream.
  */
 
 /**
