@@ -7,6 +7,10 @@ export interface MenuItem {
   badge?: string
   dietary?: 'veg' | 'vegan' | 'chef-choice'
   image: string
+  tastingNotes?: string[]
+  brewMethod?: string
+  roastLevel?: string
+  prepTime?: string
 }
 
 export type MenuCategory =
@@ -194,6 +198,10 @@ export const CAFE_CONFIG: CafeConfig = {
       badge: 'House Special',
       dietary: 'veg',
       image: 'https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=600&q=80',
+      tastingNotes: ['Dark Cacao', 'Roasted Hazelnut', 'Silky Condensed Milk'],
+      brewMethod: 'Double Ristretto + Silky Whole Milk',
+      roastLevel: 'Medium-Dark',
+      prepTime: '4-5 mins',
     },
     {
       id: 'c2',
@@ -204,6 +212,10 @@ export const CAFE_CONFIG: CafeConfig = {
       badge: "Barista's Pick",
       dietary: 'vegan',
       image: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80',
+      tastingNotes: ['Jasmine Floral', 'Bergamot Citrus', 'Wild Mountain Honey'],
+      brewMethod: 'V60 Precision Hand Drip · 93°C',
+      roastLevel: 'Light-Medium',
+      prepTime: '6-7 mins',
     },
     {
       id: 'c3',
@@ -213,6 +225,10 @@ export const CAFE_CONFIG: CafeConfig = {
       price: 195,
       dietary: 'veg',
       image: 'https://images.unsplash.com/photo-1577968897966-3d4325b36b61?auto=format&fit=crop&w=600&q=80',
+      tastingNotes: ['Brown Butter', 'Toasted Caramel', 'Velvety Microfoam'],
+      brewMethod: 'Double Espresso + Microfoam Silk',
+      roastLevel: 'Medium',
+      prepTime: '4-5 mins',
     },
     {
       id: 'c4',
@@ -222,6 +238,10 @@ export const CAFE_CONFIG: CafeConfig = {
       price: 225,
       dietary: 'veg',
       image: 'https://images.unsplash.com/photo-1485808191679-5f86510681a2?auto=format&fit=crop&w=600&q=80',
+      tastingNotes: ['Madagascar Vanilla', 'Salted Butter Caramel', 'Sweet Cream'],
+      brewMethod: 'Layered Espresso + Steamed Vanilla Milk',
+      roastLevel: 'Medium',
+      prepTime: '4-5 mins',
     },
     {
       id: 'c5',
@@ -231,6 +251,10 @@ export const CAFE_CONFIG: CafeConfig = {
       price: 160,
       dietary: 'vegan',
       image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80',
+      tastingNotes: ['Bittersweet Cocoa', 'Walnut', 'Smoky Oak'],
+      brewMethod: 'Double Long Shot + Hot Mineral Water',
+      roastLevel: 'Dark',
+      prepTime: '3-4 mins',
     },
 
     // Cold Coffee & Refreshers
@@ -243,6 +267,10 @@ export const CAFE_CONFIG: CafeConfig = {
       badge: 'Signature',
       dietary: 'vegan',
       image: 'https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=600&q=80',
+      tastingNotes: ['Valencia Orange Zest', 'Raw Molasses', 'Smoked Sea Salt'],
+      brewMethod: 'Vigorously Hand-Shaken with Ice',
+      roastLevel: 'Medium',
+      prepTime: '4-5 mins',
     },
     {
       id: 'cc2',
@@ -253,6 +281,10 @@ export const CAFE_CONFIG: CafeConfig = {
       badge: 'Popular',
       dietary: 'vegan',
       image: 'https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=600&q=80',
+      tastingNotes: ['Dark Cherry', 'Cascara Berry', 'Velvety Stout Crema'],
+      brewMethod: '18-Hour Slow Steep + Nitrogen Tap',
+      roastLevel: 'Medium-Dark',
+      prepTime: 'Instant Draft Pour',
     },
     {
       id: 'cc3',
@@ -262,6 +294,10 @@ export const CAFE_CONFIG: CafeConfig = {
       price: 260,
       dietary: 'vegan',
       image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=600&q=80',
+      tastingNotes: ['Japanese Yuzu', 'Botanical Tonic', 'Crisp Cold Brew'],
+      brewMethod: 'Layered Botanical Sparkling Pour',
+      roastLevel: 'Light-Medium',
+      prepTime: '4-5 mins',
     },
     {
       id: 'cc4',

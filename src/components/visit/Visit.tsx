@@ -17,6 +17,7 @@ import { InstagramIcon } from '@/components/ui/Icons'
 import { CAFE_CONFIG } from '@/config/cafeConfig'
 import { Container } from '@/components/layout/Container'
 import { Button } from '@/components/ui/Button'
+import { LiveStatusPill } from '@/components/ui/LiveStatusPill'
 
 export function Visit() {
   const [copied, setCopied] = useState(false)
@@ -145,9 +146,12 @@ export function Visit() {
                   <Clock className="h-6 w-6 text-[#C78B45]" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="font-serif text-lg sm:text-xl font-bold text-[#221813]">
-                    Opening Hours
-                  </h3>
+                  <div className="flex items-center justify-between">
+                    <h3 className="font-serif text-lg sm:text-xl font-bold text-[#221813]">
+                      Opening Hours
+                    </h3>
+                    <LiveStatusPill size="sm" showDetail={false} />
+                  </div>
                   <div className="mt-3 space-y-2 text-sm">
                     <div className="flex items-center justify-between pb-2 border-b border-[#806B5B]/10">
                       <span className="text-[#5C4A3E]">Monday – Friday</span>

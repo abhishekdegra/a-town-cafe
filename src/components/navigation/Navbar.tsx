@@ -4,6 +4,7 @@ import { Menu, X, Coffee, MapPin, Phone, MessageCircle, Clock } from 'lucide-rea
 import { CAFE_CONFIG } from '@/config/cafeConfig'
 import { Container } from '@/components/layout/Container'
 import { Button } from '@/components/ui/Button'
+import { LiveStatusPill } from '@/components/ui/LiveStatusPill'
 
 interface NavLinkItem {
   name: string
@@ -125,8 +126,9 @@ export function Navbar() {
               })}
             </nav>
 
-            {/* Desktop Visit CTA */}
+            {/* Desktop Visit CTA & Real-Time Status */}
             <div className="hidden sm:flex items-center gap-3">
+              <LiveStatusPill size="sm" showDetail={false} className="hidden xl:inline-flex" />
               <a href="#visit">
                 <Button
                   variant="primary"
@@ -197,6 +199,11 @@ export function Navbar() {
                   >
                     <X className="h-5 w-5" />
                   </button>
+                </div>
+
+                {/* Mobile Live Status Badge */}
+                <div className="pt-4">
+                  <LiveStatusPill size="sm" showDetail={true} className="w-full justify-center" />
                 </div>
 
                 {/* Mobile Navigation Links */}
