@@ -98,7 +98,7 @@ export const CAFE_CONFIG: CafeConfig = {
     headline: 'Good Coffee. Great Company.',
     heroSupporting: 'Your little corner for coffee, conversations and moments worth slowing down for.',
     primaryCta: 'EXPLORE OUR MENU',
-    secondaryCta: 'COME VISIT US',
+    secondaryCta: 'DISCOVER THE CAFÉ',
   },
   contact: {
     addressLine1: 'Plot 42, Sunrise Boulevard, Sector 5',
@@ -122,14 +122,11 @@ export const CAFE_CONFIG: CafeConfig = {
     kitchenCloses: 'Kitchen takes last orders 45 mins prior to closing',
   },
   media: {
-    // High-performance direct video of specialty barista coffee brewing & warm café ambience
-    heroVideoUrl:
-      'https://assets.mixkit.co/videos/preview/mixkit-coffee-maker-machine-dropping-coffee-in-cup-43187-large.mp4',
-    heroVideoFallbackUrl:
-      'https://assets.mixkit.co/videos/preview/mixkit-barista-making-a-latte-art-coffee-43188-large.mp4',
-    // Rich, warm cinematic interior poster featuring pendant lamps, wooden tables & mustard tones
-    heroPoster:
-      'https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=2000&q=85',
+    // High-performance direct local video of specialty barista coffee brewing & warm café ambience
+    heroVideoUrl: '/videos/hero-cafe.mp4',
+    heroVideoFallbackUrl: '/videos/hero-cafe.webm',
+    // Rich, warm matching 1080p poster frame
+    heroPoster: '/videos/hero-cafe-poster.jpg',
     storyImage1:
       'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1000&q=85',
     storyImage2:

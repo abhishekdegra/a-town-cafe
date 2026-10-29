@@ -83,6 +83,35 @@ dialog::backdrop {
   will-change: transform;
 }
 
+/* Film Grain Subtle Overlay */
+.hero-grain {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.035'/%3E%3C/svg%3E");
+}
+
+/* Scroll Line Indicator */
+@keyframes scrollLine {
+  0% {
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+  50% {
+    transform: scaleY(1);
+    transform-origin: top;
+  }
+  50.1% {
+    transform: scaleY(1);
+    transform-origin: bottom;
+  }
+  100% {
+    transform: scaleY(0);
+    transform-origin: bottom;
+  }
+}
+
+.animate-scroll-line {
+  animation: scrollLine 2.2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+}
+
 /* Custom Subtle Scrollbar */
 ::-webkit-scrollbar {
   width: 7px;
